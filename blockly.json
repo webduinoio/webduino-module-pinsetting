@@ -6,8 +6,8 @@
     "blockly/javascript.js"
   ],
   "dependencies": [
-    "pinsetting.js",
-    "pinsetting-blockly.js"
+    "pinSetting.js",
+    "pinSetting-blockly.js"
   ],
   "msg": "blockly/msg",
   "blocksMsg": "blockly/msg/blocks",
