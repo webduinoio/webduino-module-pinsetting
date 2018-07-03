@@ -1,0 +1,19 @@
+{
+  "name": "webduino-module-pinSetting",
+  "description": "PinSetting Module for Webduino",
+  "main": "PinSetting.js",
+  "authors": "",
+  "license": "ISC",
+  "keywords": [
+    "arduino",
+    "webduino",
+    "pinsetting"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,1 @@
+MSG.catPinOut = "霹靂燈";

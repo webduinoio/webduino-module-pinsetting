@@ -1,0 +1,54 @@
+<category id="catPinOut" tags="fly,smart" index="5">
+  <block type="pin_output">
+    <field name="bit7">9</field>
+    <field name="bit6">8</field>
+    <field name="bit5">7</field>
+    <field name="bit4">6</field>
+    <field name="bit3">5</field>
+    <field name="bit2">4</field>
+    <field name="bit1">3</field>
+    <field name="bit0">2</field>
+    <value name="convert">
+      <block type="hex_convert">
+        <value name="numHex">
+          <block type="text">
+            <field name="TEXT">3F</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="pin_output">
+    <field name="bit7">9</field>
+    <field name="bit6">8</field>
+    <field name="bit5">7</field>
+    <field name="bit4">6</field>
+    <field name="bit3">5</field>
+    <field name="bit2">4</field>
+    <field name="bit1">3</field>
+    <field name="bit0">2</field>
+    <value name="convert">
+      <block type="bin_convert">
+        <value name="numBin">
+          <block type="text">
+            <field name="TEXT">01010101</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="hex_convert">
+    <value name="numHex">
+      <block type="text">
+        <field name="TEXT">3F</field>
+      </block>
+    </value>
+  </block>
+  <block type="bin_convert">
+    <value name="numBin">
+      <block type="text">
+        <field name="TEXT">01010101</field>
+      </block>
+    </value>
+  </block>
+</category>

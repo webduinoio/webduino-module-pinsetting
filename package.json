@@ -1,0 +1,19 @@
+{
+  "name": "webduino-module-pinsetting",
+  "version": "1.0.0",
+  "description": "PinSetting Module for Webduino",
+  "main": "pinSetting.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [
+    "arduino",
+    "webduino",
+    "pinSetting"
+  ],
+  "dependencies": {
+    "webduino-js": "0.x"
+  }
+}

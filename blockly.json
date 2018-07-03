@@ -1,0 +1,15 @@
+{
+  "types": ["pin_output", "hex_convert", "bin_convert"],
+  "category": "catMenu1",
+  "scripts": [
+    "blockly/blocks.js",
+    "blockly/javascript.js"
+  ],
+  "dependencies": [
+    "pinsetting.js",
+    "pinsetting-blockly.js"
+  ],
+  "msg": "blockly/msg",
+  "blocksMsg": "blockly/msg/blocks",
+  "toolbox": "blockly/toolbox.xml"
+}
