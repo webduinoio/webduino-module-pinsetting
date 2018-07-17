@@ -2,7 +2,7 @@ Blockly.Blocks['hex_convert'] = {
   init: function () {
     this.appendValueInput("numHex")
       .setCheck(null)
-      .appendField("16進制");
+      .appendField(Blockly.Msg.WEBDUINO_PINSETTING_HEXADECIMAL);
     this.setOutput(true, "String");
     this.setColour(135);
     this.setTooltip('');
@@ -14,7 +14,7 @@ Blockly.Blocks['bin_convert'] = {
   init: function () {
     this.appendValueInput("numBin")
       .setCheck(null)
-      .appendField("2進制");
+      .appendField(Blockly.Msg.WEBDUINO_PINSETTING_BINARY);
     this.setOutput(true, "String");
     this.setColour(135);
     this.setTooltip('');

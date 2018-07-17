@@ -1,1 +1,1 @@
-MSG.catPinOut = "霹靂燈";
+MSG.catPinOut = "霹雳灯";

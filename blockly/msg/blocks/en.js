@@ -1,1 +1,3 @@
 Blockly.Msg.WEBDUINO_PINSETTING = "Flash LED Pin:";
+Blockly.Msg.WEBDUINO_PINSETTING_HEXADECIMAL = "Hexadecimal"
+Blockly.Msg.WEBDUINO_PINSETTING_BINARY = "Binary"
