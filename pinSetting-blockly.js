@@ -2,8 +2,8 @@
 
   'use strict';
 
-  window.getPinOut = function (board, bitsetting) {
-    return new webduino.module.PinSetting(board, Array.from(arguments));
+  window.getPinOut = function (board, ...bitsetting) {
+    return new webduino.module.PinSetting(board, bitsetting);
   };
 
 }(window, window.webduino));
