@@ -3,7 +3,7 @@
   "description": "PinSetting Module for Webduino",
   "main": "PinSetting.js",
   "authors": "",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [
     "arduino",
     "webduino",
